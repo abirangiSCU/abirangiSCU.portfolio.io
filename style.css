@@ -1,0 +1,27 @@
+#title{
+    font-size: 100px;
+}
+.arvin-description{
+    font-size: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#programming-languages{
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 150px;
+}
+.program-card{
+    position: relative;
+    border-radius: 10px;
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+    /*rotate: 0 1 0 50deg;*/
+}
+.program-card-background{
+    height: 100%;
+    width: 300px;
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+}
