@@ -5,17 +5,42 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Arvin Birangi Portfolio</title>
         <link href="style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
         <center>
-            <h1 id="title">Hi, my name is Arvin Birangi.</h1>
-            <h2 class="arvin-description">I am a second-year college student, attending Santa Clara University as a Computer Science and Engineering Major. I love to do programming work since I was in fourth grade, including but not limited to: designing innovative technology, testing out new functions, and game development work, specifically on Roblox!</h2>
-            <h2 class="arvin-description">Learn about the languages I program in below:</h2>
+            <h1 id="title" class="fira-sans-bold">Hi, my name is Arvin Birangi.</h1>
+            <h2 class="arvin-description fira-sans-regular">I am a second-year college student, attending Santa Clara University as a Computer Science and Engineering Major. I love to do programming work since I was in fourth grade, including but not limited to: designing innovative technology, testing out new functions, and game development work, specifically on Roblox!</h2>
+            <h2 class="arvin-description fira-sans-regular">Learn about the languages I program in below:</h2>
             <div id="programming-languages">
                 <div class="program-card-background"><div class="program-card"></div></div>
                 <div class="program-card-background"><div class="program-card"></div></div>
                 <div class="program-card-background"><div class="program-card"></div></div>
             </div>
+            <br><br>
+            <div id="slideshow">
+                <div id="infoText">
+                     <h2 id="projectName"></h2>
+                    <h2 id="role"></h2>
+                    <h2 id="creation"></h2>
+                    <p id="projectInfo"></p>
+                    <p id="gameLink"></p>
+                </div>
+                <div id="picture">
+                    <img id="displayImage">
+                </div>
+            
+                
+            </div>
+             <button id="goBack" class="slideMoveButton">&#x1F880;</button>
+                <button id="goForward" class="slideMoveButton">&#x1F882;</button>
+            <footer>
+                <a href="https://x.com/__VectorRBLX__" class="logos"><img src="xLogo.png" class="logos"></a>
+                <a href="https://youtube.com/@VectorRoblox" class="logos"><img src="youtubeLogo.png" class="logos"></a>
+                <a href="https://www.roblox.com/users/880606893/profile" class="logos"><img src="robloxLogo.png" class="logos"></a>
+            </footer>
         </center>
     </body>
     <script src="index.js"></script>
